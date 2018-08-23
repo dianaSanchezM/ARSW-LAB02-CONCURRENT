@@ -1,0 +1,6 @@
+PARTE I
+1. Al inicio el consumidor empieza a comsumir despues de un determiado tiempo de que el prodcutor empiece a producir, 
+pero al cabo de unos segundos el consumidor alcanza al productor, por lo tanto, lo que se produce se consume inm ediatamente,
+lo que genera un alto consumo de CPU y la clase responsable es Consumer.
+2.se pone un sleep al thread en la clase cosumer
+3. Dentro del while se coloca una condicion para que el tamaño del thread sea menor al stocklimit
