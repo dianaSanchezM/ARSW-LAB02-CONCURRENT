@@ -23,7 +23,7 @@ public class StartProduction {
         Queue<Integer> queue=new LinkedBlockingQueue<>();
         
         
-        new Producer(queue,10).start();
+        new Producer(queue,5).start();
         
         //let the producer create products for 5 seconds (stock).
         try {
