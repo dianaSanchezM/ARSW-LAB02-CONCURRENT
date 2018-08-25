@@ -4,3 +4,8 @@ pero al cabo de unos segundos el consumidor alcanza al productor, por lo tanto, 
 lo que genera un alto consumo de CPU y la clase responsable es Consumer.
 2.se pone un sleep al thread en la clase cosumer
 3. Dentro del while se coloca una condicion para que el tamaño del thread sea menor al stocklimit
+
+PARTE III
+2. El valor debe ser el determinado por cada jugador multiplicado por N
+3. pause and check detiene los procesos y realiza una consulta de los puntajes de cada jugador y el total de la suma, el invariante no se cumple ya que la suma total no es constante siempre aumenta.
+
